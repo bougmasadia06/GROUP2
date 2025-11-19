@@ -1,4 +1,4 @@
-# University Academic Management System – Part 1
+# UNIVERSITY SCHOOL FEES MANAGEMENT SYSTEM 
 
 ## Group
 Groupe 2
