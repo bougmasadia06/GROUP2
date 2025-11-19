@@ -1,6 +1,7 @@
 
 
-print("*** UNIVERSITY ACADEMIC MANAGEMENT SYSTEM ***")
+print("*** UNIVERSITY SCHOOL FEES MANAGEMENT SYSTEM ***")
+
 print("\nPlease enter the student's information:")
 
 #  Student Informations
