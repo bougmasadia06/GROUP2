@@ -1,15 +1,63 @@
-# University School Fees Management System – Part 2
+# **University Fees Management System**
 
-## Group
-Groupe 2
-
-## Members
-- BOUGMA Sadiata (chef)
+## **Group 2 Members**
+- BOUGMA Sadiata (Leader)
 - KABORE Awa
 - ZONGO Pascal
 - WANGRE Delwendé Esther
 - KAFANDO Dan Ernest Patrice
 - SAWADOGO Sandrine
 
-## Description
-This is a console application for managing university student records and fees. The program allows users to add students to a database, search for specific students by ID, and view payment statistics. It tracks information like tuition fees, payments made, scholarship status, and calculates remaining balances. In Part 2, we added classes, loops, and data structures to make the system more organized and powerful.
+## **Description**
+Python console application for managing university student fees. The system allows adding students, tracking payments, managing scholarships, and generating reports.
+
+## **Problem Solved**
+Automates manual university fee management: balance calculation, payment tracking, payment statistics, and scholarship management.
+
+## **Program Structure**
+
+### **Main Classes**
+1. **Student**: Stores student information (name, ID, fees, payments, scholarship)
+2. **StudentDatabase**: Manages the student collection and statistics
+
+### **Features**
+- Add students with complete information
+- Automatic calculation: balance, percentage paid, monthly payments
+- Search by student ID
+- Overall statistics
+- Categorized payment report
+- Scholarship student filtering
+
+## **How to Run**
+1. Make sure Python 3 is installed
+2. Copy code to a file `university_fees.py`
+3. Run:
+```bash
+python university_fees.py
+```
+
+## **Main Menu**
+1. Add student
+2. View all students
+3. Search by ID
+4. View statistics
+5. Scholarship students
+6. Payment report
+7. Exit
+
+## **Design Decisions**
+- Data in memory (no persistence)
+- Automatic calculations at creation
+- Currency: CFA
+- Scholarship = yes/no (not percentage)
+- Simple console interface
+
+## **Future Improvements**
+- Save data to file
+- Input validation
+- Graphical interface
+- Database
+
+---
+
+**Academic Project - 2023-2024**
